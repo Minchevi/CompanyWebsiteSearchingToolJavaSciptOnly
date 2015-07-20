@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "data.txt",
+        url: "base.csv",
         dataType: "text",
         success: function(data) {processData(data);}
     });
