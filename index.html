@@ -6,17 +6,34 @@
     <title></title>
 </head>
 <body>
-    <header>Company website searching tool</header>
+<header>Company website searching tool</header>
+<div id="searchField">
     <form class="search">
         <input class="searchTerm" placeholder="Enter the company's name..." id="tb-filter"/>
         <input class="searchButton" type="submit" />
     </form>
-
+    <ul id="companies">
+        <li>
+            <a href="company link">
+                <div class="company">
+                    "company name"
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="company link">
+                <div class="company">
+                    "company name"
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/libs/jquery.csv-0.71.min.js"></script>
 <script src="js/getData.js"></script>
 <script src="js/displayData.js"></script>
-    <script src="js/selectDataByInput.js"></script>
-    <script src="js/app.js"></script>
+<script src="js/selectDataByInput.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
