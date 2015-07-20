@@ -1,3 +1,5 @@
 function displayData(company) {
-    $('#companies').append('<li class="company"><a href="#">Companyname</a></li>');
+    var companyName = company[1];
+    var companyLink = company[2];
+    $('#companies').append('<li class="company"><a href="'+companyLink+'">'+companyName+'</a></li>');
 };

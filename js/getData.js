@@ -4,7 +4,7 @@ function getData() {
     $(document).ready(function() {
         $.ajax({
             type: "GET",
-            url: "base.csv",
+            url: "Companies.csv",
             dataType: "text",
             success: function(input) {processData(input);}
         });
