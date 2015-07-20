@@ -8,6 +8,6 @@ $(document).ready(function() {
 });
 
 function processData(csvText){
-    var data = $.csvText.toObjects(csvText);
+    var data = $.csv.toObjects(csvText);
     console.log(data);
 }
