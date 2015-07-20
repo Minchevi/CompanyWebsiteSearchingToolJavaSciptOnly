@@ -13,7 +13,5 @@ function getData() {
     function processData(csvText){
         var csvData = $.csv.toArrays(csvText);
         data = csvData;
-        console.log(data);
-        console.log(csvData);
     }
 };

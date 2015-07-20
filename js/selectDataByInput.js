@@ -1,6 +1,5 @@
 $(function () {
     // Attach on 'keyup' for live update
-    //('change' fires when the focus is lost)
     $("#tb-filter").on('keyup', function () {
         $( ".company" ).remove();
         var value,
@@ -12,7 +11,6 @@ $(function () {
                 var companyName = company[1].toLowerCase();
 
                 if(companyName.indexOf(value) > -1){
-                    console.log(companyName);
                     displayData(company);
                 }
             });
