@@ -6,22 +6,16 @@
     <title></title>
 </head>
 <body>
-<header>Company website searching tool</header>
+    <header>Company website searching tool</header>
+    <form class="search">
+        <input class="searchTerm" placeholder="Enter the company's name..." id="tb-filter"/>
+        <input class="searchButton" type="submit" />
+    </form>
 
-<form class="search">
-    <input class="searchTerm" placeholder="Enter the company's name..." id="tb-filter"/>
-    <input class="searchButton" type="submit" />
-</form>
-<!--Libs-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/libs/jquery.csv-0.71.min.js"></script>
-<!--Models-->
-<script src="js/models/requester.js"></script>
+<script src="js/displayData.js"></script>
 <script src="js/getData.js"></script>
-<!--Controllers-->
-<script src="js/companiesController.js"></script>
-<!--Views-->
-<script src="js/views/companiesView.js"></script>
-</div>
+<script src="js/selectDataByInput.js"></script>
 </body>
 </html>
