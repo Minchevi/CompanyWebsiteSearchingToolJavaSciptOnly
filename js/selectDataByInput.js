@@ -5,15 +5,11 @@ $(function () {
         var value,
             $companies;
         value = $(this).val().toLowerCase();
-        var data1 = data[0];
-        console.log(data1);
-        if (value.length > 2) {
 
-            //$regex = '%' + value + '%';
-            //console.log($regex);
+        if (value.length > 2) {
             data.forEach(function(company){
                 var companyName = company[1].toLowerCase();
-                console.log(companyName);
+
                 if(companyName.indexOf(value) > -1){
                     // TODO: get data from the variables and send to displayData !
                 }
@@ -21,11 +17,4 @@ $(function () {
 
         }
     });
-
-    //$.ajax({
-//
-    //}).success(function (respCountries) {
-    //    var $countriesList = createCountriesList(respCountries);
-    //    $('#countries').html($countriesList);
-    //});
 });
