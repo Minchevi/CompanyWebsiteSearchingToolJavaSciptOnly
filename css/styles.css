@@ -1,12 +1,16 @@
 body{
-    /*changing background color*/
     background-color:#ebebeb;
 }
 .searchbox{
-    /*definint width of form element*/
-    width:350px;
-    /*centering the form element*/
-    margin:100px auto;
+    position:relative;
+    padding: 10px;
+    width: 300px;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;
+    color:#1f5350;
 }
 input[type="search"]{
     padding:10px 15px 10px 50px;
@@ -97,10 +101,11 @@ input[type="search"]:focus + .suggestions li{
 }
 
 header {
-    position:relative;
+    width: 300px;
     margin:0 auto;
     clear:left;
     height:auto;
     z-index: 0;
-    text-align:center;/* Add This*/
+    text-align:center;
+    font-size: 40px;
 }
