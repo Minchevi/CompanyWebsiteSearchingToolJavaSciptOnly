@@ -3,29 +3,14 @@
     width: 100%;
     position: relative;
 }
-.search:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-family: 'FontAwesome';
-    content: '\f002';
-    background: #8FC357;
-    text-align: center;
-    color: #fff;
-    border-radius: 5px;
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-smooth: always;
-}
+
 
 .searchTerm {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    border: 5px solid #8FC357;
+    border: 5px solid #b2afc3;
     padding: 5px;
     height: 40px;
     border-radius: 5px;
@@ -44,7 +29,7 @@
 
 
 header {
-    color: grey;
+    color: #fff;
     margin:0 auto;
     clear:left;
     height:auto;
@@ -61,10 +46,33 @@ header {
 }
 
 #companies{
-    background-color: #8FC357;
+    background-color: #b2afc3;
 }
 
 #searchField{
     margin: 0 auto;
     width: 70%
+}
+
+ul, ul li {
+    margin: 2px;
+    padding: 2px;
+}
+
+ul{
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: Calibri;
+    background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+
 }
