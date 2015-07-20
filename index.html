@@ -15,4 +15,17 @@
 <script src="js/app.js"></script>
 </div>
 </body>
+<?php
+$ftp_handle = ftp_connect($ftp_server);
+$remote_path = "/path/to/file.csv";
+$tmp_handle = fopen('php://temp', 'r+');
+
+if (ftp_fget($ftp_handle, $tmp_handle, $remote_path, FTP_ASCII)) {
+  rewind($tmp_handle);
+  while ($csv_row = fgetcsv($tmp_handle)) {
+    // do stuff
+  }
+}
+fclose($tmp_handle);
+?>
 </html>
