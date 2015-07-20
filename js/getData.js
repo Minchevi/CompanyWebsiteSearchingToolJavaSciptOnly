@@ -1,6 +1,4 @@
-var app = app || {};
-
-app.companiesModel = (function() {
+function getData() {
     $(document).ready(function() {
         $.ajax({
             type: "GET",
@@ -14,4 +12,4 @@ app.companiesModel = (function() {
         var data = $.csv.toObjects(csvText);
         console.log(data);
     }
-}());
+}
