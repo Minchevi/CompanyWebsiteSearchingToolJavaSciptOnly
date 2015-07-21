@@ -10,7 +10,7 @@ $(function () {
             data.forEach(function(company){
                 var companyName = company[1].toLowerCase();
 
-                if(companyName.indexOf(value) > -1){
+                if(companyName.indexOf(value) > -1 &&  $('.company').length<10){
                     displayData(company);
                 }
             });
