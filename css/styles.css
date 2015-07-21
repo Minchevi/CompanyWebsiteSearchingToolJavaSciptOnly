@@ -76,3 +76,23 @@ body {
     background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
 
 }
+
+/* unvisited link */
+a:link {
+    color: #1F1C2C;
+}
+
+/* visited link */
+a:visited {
+    color: #928DAB;
+}
+
+/* mouse over link */
+a:hover {
+    color: #A247AA;
+}
+
+/* selected link */
+a:active {
+    color: #C126A7;
+}
