@@ -1,9 +1,7 @@
-@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 .search {
     width: 100%;
     position: relative;
 }
-
 
 .searchTerm {
     -moz-box-sizing: border-box;
@@ -26,7 +24,6 @@
     opacity: 0;
     cursor: pointer;
 }
-
 
 header {
     color: #fff;
@@ -74,25 +71,20 @@ body {
     background:     -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
     background:      -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
     background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
-
 }
 
-/* unvisited link */
 a:link {
     color: #1F1C2C;
 }
 
-/* visited link */
 a:visited {
-    color: #928DAB;
+    color: #7152A8;
 }
 
-/* mouse over link */
 a:hover {
     color: #A247AA;
 }
 
-/* selected link */
 a:active {
     color: #C126A7;
 }
